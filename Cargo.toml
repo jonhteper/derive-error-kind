@@ -1,0 +1,15 @@
+[package]
+name = "derive-error-kind"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "derive_error_kind"
+proc-macro = true
+path = "src/lib.rs"
+
+
+[dependencies]
+syn = { version = "1.0.109", features = ["full"] }
+quote = "1.0"
+proc-macro2 = "1.0"
