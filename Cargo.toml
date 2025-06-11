@@ -2,6 +2,12 @@
 name = "derive-error-kind"
 version = "0.1.0"
 edition = "2024"
+authors = ["johnteper <git@johnteper.me>"]
+description = "Proc macro for deriving error kinds"
+homepage = "https://github.com/jonhteper/derive-error-kind"
+license = "MIT"
+repository = "https://github.com/jonhteper/derive-error-kind"
+keywords = ["error", "kind", "derive"]
 
 [lib]
 name = "derive_error_kind"
